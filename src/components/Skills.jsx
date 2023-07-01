@@ -9,9 +9,9 @@ export default function () {
     <section>
         <div className="mx-auto flex w-[70%] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-gray-400/20">
             
-            <div>
+            {/* <div>
             <Carrusel/>
-            </div>
+            </div> */}
 
             <div className="p-6">
                 <small className="text-gray-900 text-xs">Category</small>
