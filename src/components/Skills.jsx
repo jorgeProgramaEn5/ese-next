@@ -37,9 +37,9 @@ export default function
     <section>
         <div className="mx-auto flex w-[70%] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-gray-400/20">
             
-            <div>
+            {/* <div>
             <Carrusel/>
-            </div>
+            </div> */}
 
             {/* <img className="aspect-video w-80 rounded-t-2xl object-cover object-center" src="/assets/images/placeholders/neon-1.jpg"/> */}
             <div className="p-6">
