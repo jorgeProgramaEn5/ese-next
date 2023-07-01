@@ -21,7 +21,7 @@ export default function Hero() {
             <div className="flex flex-col items-start mt-12 mb-5 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
                 <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Your tagline </span>
                 <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl">Medium length display headline.</h1>
-                <p className="mb-8 text-base leading-relaxed text-left text-gray-500">Free and Premium themes, UI Kit's, templates and landing pages built with Tailwind CSS, HTML &amp; Next.js.</p>
+                <p className="mb-8 text-base leading-relaxed text-left text-gray-500">Free and Premium themes, UI Kit is, templates and landing pages built with Tailwind CSS, HTML &amp; Next.js.</p>
                 <div className="flex flex-wrap w-full mt-2 -mx-4 text-left">
                 <div className="w-1/4 p-4 mt-4 sm:w-1/4">
                     <svg width="42" height="42" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
