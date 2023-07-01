@@ -4,7 +4,7 @@ import Carrusel from '@/src/components/Carrusel'
 
 
 
-export default function () {
+export function Skills () {
   return (
     <section>
         <div className="mx-auto flex w-[70%] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-gray-400/20">
