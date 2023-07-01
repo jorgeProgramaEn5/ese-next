@@ -13,7 +13,7 @@ export default function Home() {
       <Hero/>
       <SectionCard/>
       <Contact/>
-      <Skills/>
+      {/* <Skills/> */}
       <Footer/>
     </main>
   )
