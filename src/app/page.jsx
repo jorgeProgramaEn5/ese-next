@@ -12,8 +12,8 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <SectionCard/>
-      {/* <Contact/> */}
-      {/* <Skills/> */}
+      <Contact/>
+      <Skills/>
       <Footer/>
     </main>
   )
