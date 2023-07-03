@@ -143,12 +143,11 @@ export default function Navbar() {
 
         <div className="mt-8">
           <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
-            Welcome Back, Barry!
+            Bienvenidos a eSe!
           </h1>
 
           <p className="mt-1.5 text-sm text-gray-500">
-            Your website has seen a 52% increase in traffic in the last month. Keep
-            it up! 🚀
+            {`estrada Soluciones electricas (eSe), juntos podemos lograrlo! 🚀`}
           </p>
         </div>
       </div>
