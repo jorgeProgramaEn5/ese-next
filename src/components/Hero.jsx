@@ -8,18 +8,24 @@ export default function Hero() {
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
             <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
                 <div>
-                <div className="relative w-full max-w-lg">
-                    <div className="absolute top-[100px] rounded-full md:bg-[#536791] -left-4 w-52 h-52 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                <div className="relative w-full max-w-lg p-5">
+                    <div className="z-[-1] absolute top-[100px] rounded-full md:bg-[#536791] -left-4 w-52 h-52 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
 
                     <div className="absolute rounded-full md:bg-[#cee44c] -bottom-[50px] right-20 w-52 h-52 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-                    <div className="relative">
-                    <Image className="object-cover object-center mx-auto rounded-lg shadow-2xl" alt="hero" src={imagenprueba}/>
+                    
+                    <div className="relative bg-white">
+                        <div className="z-[5] absolute w-[100%] h-[100%] bg-[#e2d956] rounded-[30px] "></div>
+                        <div className="z-[4] absolute w-[95%] h-[95%] bg-[#3370f1] rounded-[30px] rotate-[20deg] "></div>
+                        <div className="z-[3] absolute w-[100%] h-[100%] bg-[#2ce6cd] rounded-[50px] rotate-[-10deg] "></div>
+                            <div className="relative z-[10]">
+                                <Image className="z-[10] object-cover object-center mx-auto rounded-[30px] shadow-2xl" alt="hero" src={imagenprueba}/>
+                            </div>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
             <div className="flex flex-col items-start mt-12 mb-5 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
-                <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Your tagline </span>
+                <span className=" mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Your tagline </span>
                 <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl">Medium length display headline.</h1>
                 <p className="mb-8 text-base leading-relaxed text-left text-gray-500">Free and Premium themes, UI Kit is, templates and landing pages built with Tailwind CSS, HTML &amp; Next.js.</p>
                 <div className="flex flex-wrap w-full mt-2 -mx-4 text-left">
