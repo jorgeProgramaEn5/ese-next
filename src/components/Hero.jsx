@@ -11,14 +11,14 @@ export default function Hero() {
                 <div className="relative w-full max-w-lg p-5">
                     <div className="z-[-1] absolute top-[100px] rounded-full md:bg-[#536791] -left-4 w-52 h-52 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
 
-                    <div className="absolute rounded-full md:bg-[#cee44c] -bottom-[50px] right-20 w-52 h-52 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+                    <div className="absolute rounded-full md:bg-primary-400 -bottom-[30px] right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
                     
                     <div className="relative bg-white">
-                        <div className="z-[5] absolute w-[100%] h-[100%] bg-primary-200 rounded-[30px] "></div>
-                        <div className="z-[4] absolute w-[95%] h-[95%] bg-primary-300 rounded-[30px] rotate-[20deg] "></div>
+                        <div className="z-[5] absolute w-[100%] h-[100%] bg-primary-300 bg-opacity-[0.85] rounded-[30px] "></div>
+                        <div className="z-[4] absolute w-[95%] h-[95%] bg-primary-200 bg-opacity-90 rounded-[30px] rotate-[20deg] "></div>
                         <div className="z-[3] absolute w-[100%] h-[100%] bg-primary-400 rounded-[50px] rotate-[-10deg] "></div>
                             <div className="relative z-[10]">
-                                <Image className="z-[10] object-cover object-center mx-auto rounded-[30px] shadow-2xl" alt="hero" src={imagenprueba}/>
+                                <Image className="z-[10] object-cover object-center mx-auto rounded-[30px] opacity-[0.9] shadow-2xl" alt="hero" src={imagenprueba}/>
                             </div>
                         </div>
                     </div>
