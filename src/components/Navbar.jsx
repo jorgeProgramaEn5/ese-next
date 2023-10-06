@@ -1,3 +1,5 @@
+import Image from "next/image";
+import { profile } from "../assets/indice";
 
 export default function Navbar() {
   return (
@@ -113,16 +115,16 @@ export default function Navbar() {
               className="group flex shrink-0 items-center rounded-lg transition"
             >
               <span className="sr-only">Menu</span>
-              <img
-                alt="Man"
-                src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                className="h-10 w-10 rounded-full object-cover"
+              <Image
+                alt="profile"
+                src={profile}
+                className="h-12 w-12 rounded-full object-cover"
               />
 
               <p className="ms-2 hidden text-left text-xs sm:block">
-                <strong className="block font-medium">Eric Frusciante</strong>
+                <strong className="block font-medium">Jorge Estrada</strong>
 
-                <span className="text-gray-500"> eric@frusciante.com </span>
+                <span className="text-gray-500"> Ingeniero Eléctrico</span>
               </p>
 
               <svg
@@ -131,11 +133,11 @@ export default function Navbar() {
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
-                <path
+                {/* <path
                   fillRule="evenodd"
                   d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                   clipRule="evenodd"
-                />
+                /> */}
               </svg>
             </button>
           </div>
@@ -143,11 +145,11 @@ export default function Navbar() {
 
         <div className="mt-8">
           <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
-            Bienvenidos a eSe!
+            Bienvenidos!
           </h1>
 
           <p className="mt-1.5 text-sm text-gray-500">
-            {`estrada Soluciones electricas (eSe), juntos podemos lograrlo! 🚀`}
+            {`Estrada Soluciones Electricas, juntos podemos lograrlo! 🚀`}
           </p>
         </div>
       </div>

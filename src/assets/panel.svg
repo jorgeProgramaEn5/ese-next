@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="panel.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.52125"
+     inkscape:cx="-9.5923261"
+     inkscape:cy="392.32614"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 8,21 h 8 m -4,-4 v 4 M 14.5,3 h 3.2997 c 1.1201,0 1.6801,0 2.1079,0.21799 0.3764,0.19174 0.6823,0.4977 0.8741,0.87403 0.218,0.42782 0.218,0.98787 0.218,2.10798 v 7.6 c 0,1.1201 0,1.6802 -0.218,2.108 -0.1918,0.3763 -0.4977,0.6823 -0.8741,0.874 C 19.4798,17 18.9198,17 17.7997,17 H 6 C 5.06812,17 4.60218,17 4.23463,16.8478 3.74458,16.6448 3.35523,16.2554 3.15224,15.7654 3,15.3978 3,14.9319 3,14"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path2"
+     style="stroke:#048ba8;stroke-opacity:1"
+     sodipodi:nodetypes="cccccsccssccssccc" />
+  <path
+     d="m 6.5613009,1.5610511 v 0.41667 m 0,9.1668299 v 0.4167 M 11.561002,6.5610509 h -0.416701 m -9.1663299,0 h -0.41667 m 8.5348999,-3.5354699 -0.2947,0.29463 m -6.4807298,6.4816399 -0.29463,0.2946001 m 3e-4,-7.07063 0.29463,0.29463 m 6.4817297,6.4815999 0.2946001,0.2946001 m -1.5361,-3.5356001 c 0,1.10457 -0.8954301,2.0000001 -2.0000001,2.0000001 -1.10457,0 -1.9999998,-0.8954301 -1.9999998,-2.0000001 0,-1.10457 0.8954298,-1.9999998 1.9999998,-1.9999998 1.10457,0 2.0000001,0.8954298 2.0000001,1.9999998 z"
+     style="stroke:#16db93;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path886" />
+</svg>
