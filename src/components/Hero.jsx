@@ -28,7 +28,7 @@ export default function Hero() {
 
           {/* div title */}
           <div className="flex flex-col items-start mt-12 mb-5 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
-            <Link href={`https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios`} className=' pb-4'>
+            <Link href={`https://wa.me/+5359106524?text=Hola%20Estrada!%20Necesitamos%20de%20sus%20servicios`} className=' pb-4'>
               <span className="text-xs font-bold tracking-widest text-secundary-100 uppercase"> Contáctenos 
               </span>
             </Link>

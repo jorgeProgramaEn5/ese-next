@@ -3,6 +3,7 @@ import Hero from '@/src/components/Hero'
 import SectionCard from '@/src/components/SectionCard' 
 import Contact from '@/src/components/Contact' 
 import Footer from '@/src/components/Footer' 
+import Constrution from '@/src/components/Constrution' 
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <SectionCard/>
-      <Contact/>
+      {/* <Contact/> */}
       <Footer/>
     </main>
   )
