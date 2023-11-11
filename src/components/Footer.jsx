@@ -8,12 +8,12 @@ export default function Footer() {
     <footer className="text-gray-600 body-font relative">
         {/* Cartel de construccion de la pagina */}
         <div className=' absolute top-0 bg-slate-300 w-full h-[80%] bg-opacity-[0.85] flex flex-col justify-center md:justify-center items-center'>
-            <h1 className=' text-2xl'>ATENCION!!!</h1>
+            <h1 className=' text-2xl pb-4'>ATENCION!!!</h1>
             <p className='w-[80%] md:w-[50%] text-center'>Esta página se encuentra actualmente en construcción. </p>
             <p className='w-[80%] md:w-[50%] text-center pt-5'> 
             Si desea conocer detalles de nuestros servicios, 
             lo atenderemos con mucho gusto. Puede ponerse en contacto 
-            con con el equipo de <span className=' font-[900] text-primary-100'>
+            con el equipo de <span className=' font-[900] text-primary-100'>
             Estrada Soluciones Electricas</span>  dando click en el siguiente botón.</p>
             <Link href={`https://wa.me/+5359106524?text=Hola%20Estrada!%20Necesitamos%20de%20sus%20servicios`} className=' pb-4'>
                 <button type="button" className="text-white bg-[#5bd066] hover:bg-[#5bd066]/80 focus:ring-4 focus:outline-none focus:ring-[#5bd066]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 mb-2 mt-6">
